@@ -37,7 +37,7 @@ module.exports = {
          * The full URL of the WordPress site's GraphQL API.
          * Example : 'https://www.example-site.com/graphql'
          */
-        url: `http://autoservice.local/graphql`,
+        url: `https://autoservice.local/graphql`,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
