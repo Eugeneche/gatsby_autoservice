@@ -1,0 +1,7 @@
+.services {
+    display: flex;
+}
+
+.services__title {
+    text-transform: uppercase;
+}

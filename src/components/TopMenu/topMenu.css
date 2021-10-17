@@ -1,0 +1,44 @@
+.menu-top__common {
+    background: #3b3b3b;
+    color: #a9a9a9;
+    font-size: 16px;
+    line-height: 50px;
+}
+
+.menu-top__common .container, .menu-top__pages .container {
+    display: flex;
+    align-items: center;
+}
+
+.menu-top__common-item {
+    display: flex;   
+    height: 100%;
+    margin-right: 30px;
+}
+
+.menu-top__common-item a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu-top__common-icon {
+    margin-right: 20px;
+}
+
+.menu-top__pages-items {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    margin: 0 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.menu-top__pages-item {
+    margin: 0 15px;
+}
+
+.menu-top__pages-item:hover {
+    border-bottom: 3px solid #e2b900;
+    color: gray;
+}

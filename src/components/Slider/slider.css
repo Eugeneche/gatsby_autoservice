@@ -1,0 +1,6 @@
+.slider {
+    height: 60vh;
+    background: url(../../images/photos/header_slider_01.jpg);
+    background-position: center;
+    background-size: cover;
+}
