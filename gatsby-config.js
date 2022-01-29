@@ -31,15 +31,19 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-source-wordpress`,
+      resolve: `gatsby-plugin-google-fonts-v2`,
       options: {
-        /*
-         * The full URL of the WordPress site's GraphQL API.
-         * Example : 'https://www.example-site.com/graphql'
-         */
-        url: `https://autoservice.local/graphql`,
-      },
-    },
+        fonts: [
+          {
+            family: 'Montserrat',
+            weights: ['100..600']
+          },
+          {
+            family: 'Limelight'
+          }
+        ]
+      }
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

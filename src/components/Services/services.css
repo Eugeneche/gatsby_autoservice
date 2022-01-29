@@ -1,7 +1,34 @@
+.services-grid__item-img img {
+    margin-bottom: -5px;
+}
+
 .services {
     display: flex;
 }
 
 .services__title {
     text-transform: uppercase;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: minmax(100px, 1fr) 3fr; */
+}
+
+.services-grid__item:nth-child(1) {
+    background-color: #ffba00;
+}
+
+.services-grid__item-text-title {
+    text-align: center;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Limelight', cursive;
+    margin: 20px auto 0;
+}
+
+.services-grid__item-text-subtitle {
+    max-width: 90%;
+    margin: 0 auto;
+    font-size: 20px;
 }
